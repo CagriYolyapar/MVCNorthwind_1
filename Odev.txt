@@ -1,0 +1,4 @@
+﻿1 => Proje ödevlerinin hepsine UI'da MVC entegre edilip  Listeleme ve Ekleme  coka cok ve birebir harici olan tablolar icin yapılsın... OdaTipleri    Odalar   , 1   Tipte   n oda, 1 oda     1 Tip
+
+Proje ödevlerinde VM kullanmak zorunlu
+

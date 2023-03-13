@@ -1,0 +1,25 @@
+﻿@model List<CategoryVM>
+
+@{
+    ViewBag.Title = "ListCategories";
+}
+
+<h2>Kategoriler- Yeni kategori eklemek icin lütfen @Html.ActionLink("tıklayınız","AddCategory")</h2>
+
+<table class="table table-hover">
+    <tr>
+        <th>ID</th>
+        <th>Kategori Ismi</th>
+        <th>Kategori Aciklamasi</th>
+    </tr>
+
+    @foreach (CategoryVM item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.CategoryName</td>
+            <td>@item.Description</td>
+        </tr>
+    }
+</table>
+
